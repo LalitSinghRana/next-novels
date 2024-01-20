@@ -4,5 +4,12 @@
     "source.organizeImports.biome": true
   },
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "biomejs",
+    "clsx",
+    "commitlint",
+    "lucide",
+    "tailwindcss"
+  ]
 }
