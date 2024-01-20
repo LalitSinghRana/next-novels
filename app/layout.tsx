@@ -17,7 +17,7 @@ export default function RootLayout({
 			<head />
 			<body
 				className={cn(
-					"min-h-screen bg-background font-sans antialiased",
+					"h-screen bg-background w-screen font-sans antialiased",
 					fontSans.variable,
 				)}
 			>
