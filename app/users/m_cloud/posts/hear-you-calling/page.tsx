@@ -1,10 +1,6 @@
 import React from "react";
 import StoryDescription from "./StoryDescription";
 
-const HearYouCallingPage = () => (
-	<div>
-		<StoryDescription />
-	</div>
-);
+const HearYouCallingPage = () => <StoryDescription />;
 
 export default HearYouCallingPage;
