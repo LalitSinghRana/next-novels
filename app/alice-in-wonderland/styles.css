@@ -5,22 +5,3 @@
   width: 100vw;
   background: url('./01.png') no-repeat center center;
 }
-
-.backdrop {
-  z-index: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.text {
-  z-index: 1;
-  font-size: 10vw;
-  padding: 1rem;
-  text-align: center;
-  text-shadow: 0 0 10px white;
-  backdrop-filter: blur(2px);
-}
