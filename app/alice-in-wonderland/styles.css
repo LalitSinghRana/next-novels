@@ -5,3 +5,31 @@
   width: 100vw;
   background: url('./01.png') no-repeat center center;
 }
+
+.animate-character {
+  background: linear-gradient(to right, black 50%, rgba(0, 0, 0, 0.05) 50%);
+  background-size: 200% auto;
+  background-position: 100% center;
+  background-clip: text;
+  color: transparent;
+  animation: text-clip 3s ease-out 1s forwards;
+}
+
+@keyframes text-clip {
+  to {
+    background-position: 0% center;
+  }
+}
+
+.zoom-out {
+  opacity: 0;
+  transform: scale(1.1);
+  animation: zoom-out 3s ease-out 3s forwards;
+}
+
+@keyframes zoom-out {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
