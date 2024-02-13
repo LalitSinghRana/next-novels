@@ -12,5 +12,6 @@
     "commitlint",
     "lucide",
     "tailwindcss"
-  ]
+  ],
+  "search.followSymlinks": false
 }
